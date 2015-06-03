@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="bordercolor" format="color" />
+    <attr name="strokeWidth"  format="dimension"></attr>
+    <attr name="src" format="reference"></attr>
+    
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+     <declare-styleable name="CanvasView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+        <attr name="strokeWidth" />
+        <attr name="bordercolor" />
+    </declare-styleable>
+    
+</resources>
